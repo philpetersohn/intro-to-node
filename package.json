@@ -1,18 +1,23 @@
 {
-  "name": "intro-to-node",
+  "name": "intro-to-nodejs-v3",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
   "bin": {
     "note": "./index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "open": "^9.1.0",
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
