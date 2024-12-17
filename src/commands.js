@@ -8,6 +8,7 @@ import {
   removeAllNotes,
 } from "./notes.js";
 import { listNotes } from "./utils.js";
+import { start } from "./server.js";
 
 yargs(hideBin(process.argv))
   .command(
