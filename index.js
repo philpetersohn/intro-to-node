@@ -1,3 +1,3 @@
-console.log(global);
+#!/usr/bin/env node
 
-console.log("Helo world");
+import "./src/commands.js";
